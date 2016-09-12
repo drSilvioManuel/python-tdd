@@ -23,7 +23,9 @@ eg, on Ubuntu:
 ## Upstart job
 
 * see gunicorn-systemd.template.conf
-* replace SITENAME with, eg, stage-my-domain.con
+* replace SITENAME with, eg, stage-my-domain.com
+* run
+    sudo systemctl enable gunicorn-stage-stage-my-domain.com
 
 ## Folder structure
 
